@@ -1,9 +1,10 @@
 #Code "Precious metals in bottom ashes from municipal waste incineration"
 #PLOS ONE submission 
+#Cite: ""
 
 Sys.setlocale("LC_ALL", "English")
 
-#data imported from working directory (data presented in Table 1)
+#data imported from working directory (data presented in Table 1, and met_szl.csv)
 library(readr)
 library(dplyr)
 met_szl<-read_delim(met_szl.csv, col_names=TRUE, delim = ";", escape_double = FALSE, trim_ws = TRUE)
